@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 
 function home(){
     return(
-        <div>
+        <div className='page'>
             <Header />
+            <Footer />
         </div>
     );
 }
