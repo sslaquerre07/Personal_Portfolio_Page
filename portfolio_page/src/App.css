@@ -1,9 +1,11 @@
 /* General website styling choices */
 .page{
-    background-color: #0b0c10;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-/*Header & Footer Changes */
+/*Header Styling*/
 #header-container{
     display: flex;
     color: white;
@@ -20,7 +22,41 @@
     padding: 0px 5px;
 }
 
+#nav-bar a:hover{
+    text-decoration: underline;
+}
+
 a{
     color: inherit;
     text-decoration: none;
+}
+
+/* Footer Styling */
+#footer-container{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 20%;
+    width: 60%;
+    height: 20%;
+    bottom: 0;
+}
+
+#social-section{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: left;
+    height: 100%;
+}
+
+#socials{
+    display: flex;
+    margin-top: 5%
+}
+
+#socials * {
+    margin-right: 20%;;
 }
