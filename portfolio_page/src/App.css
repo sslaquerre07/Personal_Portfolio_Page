@@ -76,7 +76,7 @@ a{
 }
 
 /*Homepage Styling */
-#body{
+.body{
     display: flex;
     color: white;
     padding: 0% 10%;
@@ -87,8 +87,8 @@ a{
 #avatar{
     margin-right: 5%;
     object-fit: cover;
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    height: 70%;
 }
 
 #title-text{
@@ -98,4 +98,30 @@ a{
     width: 50%;
     height: 100%;
     justify-content: space-evenly;
+}
+
+.vertical{
+    flex-direction: column;
+    align-items: center;
+}
+
+/*About Page Styling */
+.vertical b{
+    text-align: center;
+    font-size: 3rem;
+}
+
+#radio-buttons{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: space-evenly;
+}
+
+#text-box{
+    flex-grow: 1;
+    margin: 2% 0%;
+    width: 80%;
+    background-color: white;
+    border-radius: 15%;
 }
