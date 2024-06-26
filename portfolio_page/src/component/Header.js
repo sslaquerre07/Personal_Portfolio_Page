@@ -8,10 +8,11 @@ function Header() {
             </div>
             <div id="nav-bar">
                 <p><a href="/">Home</a></p>
+                <p><a href="/about">About</a></p>
+                <p><a href="/projects">Projects</a></p>
                 <p><a href="/certifications">Certifications & Skills</a></p>
                 <p><a href="/contact">Contact</a></p>
-                <p><a href="/projects">Projects</a></p>
-                <p><a href="/about">About</a></p>
+                
             </div>
         </div>
     );
