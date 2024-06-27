@@ -60,17 +60,14 @@ function About(){
             <div className="body vertical">
                 <b>Learn About Me!</b>
                 <div id="radio-buttons">
-                    <div id="life">
-                        <input type="radio" id="life-story" name="option" value="life-option" onClick={() => setButton("life")}></input>
-                        <label htmlFor="life-story">My Life</label>                        
+                    <div id="life" className="about-section">
+                        <button id="life-story" onClick={() => setButton("life")}>My Life</button>                      
                     </div>
-                    <div id="software">
-                        <input type="radio" id="software-story" name="option" value="software-option" onClick={() => setButton("coding")}></input>
-                        <label htmlFor="software-story">How I got into Software Development</label>                        
+                    <div id="software" className="about-section">
+                        <button id="software-story" onClick={() => setButton("coding")}>How I got into Software Development</button>                       
                     </div>
-                    <div id="golf">
-                        <input type="radio" id="golf-story" name="option" value="golf-option" onClick={() => setButton("golf")}></input>
-                        <label htmlFor="golf-story">Golf</label>                        
+                    <div id="golf" className="about-section">
+                        <button id="golf-story" onClick={() => setButton("golf")}>Golf</button>                   
                     </div>
                 </div>
                 <div id="text-box">
