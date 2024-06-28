@@ -40,7 +40,7 @@ function certifications() {
         <div className='page'>
             <Header />
             <div className="body vertical">
-                <h1>Certification Wall</h1>
+                <h1 id="certification-title">Certification Wall</h1>
                 <div id='certification-wall'>
                     {certificates.map((certificate) => {
                         return(createCertificate(certificate));

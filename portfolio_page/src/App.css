@@ -16,7 +16,7 @@ html, body, #root{
 /*Header Styling*/
 #header-container{
     display: flex;
-    color: white;
+    color: #d7d2cc;
     flex-direction: row;
     font-size: 1.5rem;
     justify-content: space-between;
@@ -50,7 +50,7 @@ a{
 
 /* Footer Styling */
 #footer-container{
-    color: white;
+    color: #d7d2cc;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -80,7 +80,7 @@ a{
 /*Homepage Styling */
 .body{
     display: flex;
-    color: white;
+    color: #d7d2cc;
     padding: 0% 10%;
     flex-grow: 1;
     width: 80%;
@@ -136,7 +136,7 @@ a{
 }
 
 #life:hover, #software:hover, #golf:hover{
-    background: white;
+    background: #d7d2cc;
 }
 
 #radio-buttons{
@@ -189,13 +189,11 @@ tr{
 /* Skills Page Styling */
 
 #certification-wall{
-    height: 60%;
+    height: 90%;
+    width: 90%;
     background-color: #d7d2cc;
+    border-radius: 15px;
     color: black;
-    border: 40px solid transparent;
-    border-image: url("C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/100053-golden-frame-border-rectangle-free-download-image.png");
-    border-image-slice: 125 fill;
-    border-image-repeat: round;
     margin: 0;
     padding: 0;
     display: flex;
@@ -208,8 +206,8 @@ tr{
     justify-content: space-evenly;
     font-size: 0.5rem;
     text-align: center;
-    height: 60%;
-    width: 20%;
+    height: 40%;
+    width: 15%;
     background-color: white;
     padding: 0% 3%;
     margin: 3%;
@@ -235,4 +233,8 @@ tr{
 
 .certificate-button:hover{
     background-color: #006666;
+}
+
+#certification-title{
+    font-size: 3rem;
 }
