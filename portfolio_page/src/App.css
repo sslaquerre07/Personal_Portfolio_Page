@@ -16,7 +16,7 @@ html, body, #root{
 /*Header Styling*/
 #header-container{
     display: flex;
-    color: white;
+    color: #d7d2cc;
     flex-direction: row;
     font-size: 1.5rem;
     justify-content: space-between;
@@ -50,7 +50,7 @@ a{
 
 /* Footer Styling */
 #footer-container{
-    color: white;
+    color: #d7d2cc;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -80,9 +80,9 @@ a{
 /*Homepage Styling */
 .body{
     display: flex;
-    color: white;
+    color: #d7d2cc;
     padding: 0% 10%;
-    height: 80%;
+    flex-grow: 1;
     width: 80%;
     justify-content: center;
     align-items: center;
@@ -136,7 +136,7 @@ a{
 }
 
 #life:hover, #software:hover, #golf:hover{
-    background: white;
+    background: #d7d2cc;
 }
 
 #radio-buttons{
@@ -184,4 +184,57 @@ tr{
 
 #title{
     font-size: 1.5rem;
+}
+
+/* Skills Page Styling */
+
+#certification-wall{
+    height: 90%;
+    width: 90%;
+    background-color: #d7d2cc;
+    border-radius: 15px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certificate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 0.5rem;
+    text-align: center;
+    height: 40%;
+    width: 15%;
+    background-color: white;
+    padding: 0% 3%;
+    margin: 3%;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    transition: all 1s ease;
+}
+
+.certificate:hover {
+    transform: scale(1.2);
+}
+
+.certificate-button{
+    background-color: #008080;
+    color: white;
+    margin:20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: background-color 0.3s ease;
+}
+
+.certificate-button:hover{
+    background-color: #006666;
+}
+
+#certification-title{
+    font-size: 3rem;
 }
