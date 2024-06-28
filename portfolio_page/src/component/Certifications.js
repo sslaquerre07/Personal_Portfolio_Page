@@ -1,4 +1,4 @@
-import React, {createContext, useContext} from 'react';
+import React, {createContext} from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Certificate from './Certificate';
@@ -24,6 +24,18 @@ const certificates = [
     }
 ]
 
+const skills = [
+    "Python",
+    "HTML",
+    "CSS",
+    "Java",
+    "JavaScript",
+    "React",
+    "C/C++",
+    "SQL",
+    "RISC-V Assembly"
+]
+
 export const CertificateContext = createContext(null);
 
 function createCertificate(certificate) {
@@ -40,14 +52,19 @@ function certifications() {
         <div className='page'>
             <Header />
             <div className="body vertical">
-                <h1 id="certification-title">Certification Wall</h1>
+                <h1 className="certification-title">Certification Wall</h1>
                 <div id='certification-wall'>
                     {certificates.map((certificate) => {
                         return(createCertificate(certificate));
                     })}
                 </div>
                 <div id='skill-list'>
-                    
+                    <h1 className="certification-title">Skills</h1>
+                    <div id='skill-container'>
+                        {skills.map((skill) => {
+                            return(<button className='skill'>{skill}</button>);
+                        })}
+                    </div>
                 </div>
             </div>
             <Footer />
