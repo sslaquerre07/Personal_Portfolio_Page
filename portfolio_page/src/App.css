@@ -1,14 +1,7 @@
 /* General website styling choices */
-html, body, #root{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 .page{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -18,10 +11,10 @@ html, body, #root{
     display: flex;
     color: #d7d2cc;
     flex-direction: row;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     justify-content: space-between;
-    padding: 0% 20%;
-    height: 10%;
+    padding: 0vh 20vw;
+    height: 10vh;
 }
 
 #nav-bar{
@@ -34,7 +27,7 @@ html, body, #root{
 
 #nav-bar a:hover{
     text-decoration: underline solid currentColor;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 #nav-bar a{
@@ -53,24 +46,22 @@ a{
     color: #d7d2cc;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0% 20%;
-    font-size: 1.5rem;
-    width: 60%;
-    height: 10%;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+    height: 10vh;
 }
 
 #social-section{
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 20vw;
     text-align: left;
-    height: 100%;
+    height: 100vh;
 }
 
 #socials{
     display: flex;
-    margin-top: 5%
+    margin-top: 3vh;
 }
 
 #socials * {
@@ -81,25 +72,24 @@ a{
 .body{
     display: flex;
     color: #d7d2cc;
-    padding: 0% 10%;
-    flex-grow: 1;
-    width: 80%;
+    height: 80vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
 }
 
 #avatar{
     margin-right: 5%;
-    width: 30%;
-    height: 70%;
+    width: 20vw;
+    height: 45vh;
 }
 
 #title-text{
     display: flex;
     flex-direction: column;
-    font-size: 4rem;
-    width: 50%;
-    height: 100%;
+    font-size: 4vw;
+    width: 50vw;
+    height: 100vh;
     justify-content: space-evenly;
 }
 
@@ -111,13 +101,13 @@ a{
 /*About Page Styling */
 .vertical b{
     text-align: center;
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .about-section{
     background: linear-gradient(to right, #777f85 0%,#d7d2cc 100%);
     color: black;
-    width: 33%;
+    width: 33vw;
     font-size: 1rem;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -190,7 +180,7 @@ tr{
 
 #certification-wall{
     height: 70%;
-    width: 90%;
+    width: 80vw;
     background-color: #d7d2cc;
     border-radius: 15px;
     color: black;
@@ -241,7 +231,7 @@ tr{
 
 #skill-list{
     height: 25%;
-    width: 90%;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
