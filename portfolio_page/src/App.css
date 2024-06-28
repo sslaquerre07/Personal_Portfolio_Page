@@ -16,8 +16,9 @@ html, body, #root{
 /*Header Styling*/
 #header-container{
     display: flex;
-    color: white;
+    color: #d7d2cc;
     flex-direction: row;
+    font-size: 1.5rem;
     justify-content: space-between;
     padding: 0% 20%;
     height: 10%;
@@ -33,7 +34,7 @@ html, body, #root{
 
 #nav-bar a:hover{
     text-decoration: underline solid currentColor;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #nav-bar a{
@@ -49,13 +50,14 @@ a{
 
 /* Footer Styling */
 #footer-container{
-    color: white;
+    color: #d7d2cc;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0% 20%;
+    font-size: 1.5rem;
     width: 60%;
-    height: 10%;
+    height: 15%;
 }
 
 #social-section{
@@ -76,19 +78,20 @@ a{
 }
 
 /*Homepage Styling */
-#body{
+.body{
     display: flex;
-    color: white;
+    color: #d7d2cc;
     padding: 0% 10%;
-    height: 80%;
+    flex-grow: 1;
     width: 80%;
+    justify-content: center;
+    align-items: center;
 }
 
 #avatar{
     margin-right: 5%;
-    object-fit: cover;
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    height: 70%;
 }
 
 #title-text{
@@ -100,6 +103,142 @@ a{
     justify-content: space-evenly;
 }
 
+
 #title-text .small-word{
     font-size: 2rem;
+
+.vertical{
+    flex-direction: column;
+    align-items: center;
+}
+
+/*About Page Styling */
+.vertical b{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about-section{
+    background: linear-gradient(to right, #777f85 0%,#d7d2cc 100%);
+    color: black;
+    width: 33%;
+    font-size: 1rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 2%;
+}
+
+.about-section button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 100%;
+}
+
+#life:hover, #software:hover, #golf:hover{
+    background: #d7d2cc;
+}
+
+#radio-buttons{
+    display: flex;
+    width: 80%;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+}
+
+#text-box{
+    flex-grow: 1;
+    margin: 0%;
+    width: 80%;
+    background-color: #d7d2cc;
+    color: black;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#text-box table{
+    width: 100%;
+    height: 100%;
+}
+
+tr{
+    width: 100%;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 40%;
+}
+
+.image{
+    height: 10vw;
+    max-width: 15vw;
+}
+
+.text{
+    padding: 0% 10%;
+}
+
+#title{
+    font-size: 1.5rem;
+}
+
+/* Skills Page Styling */
+
+#certification-wall{
+    height: 90%;
+    width: 90%;
+    background-color: #d7d2cc;
+    border-radius: 15px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certificate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 0.5rem;
+    text-align: center;
+    height: 40%;
+    width: 15%;
+    background-color: white;
+    padding: 0% 3%;
+    margin: 3%;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    transition: all 1s ease;
+}
+
+.certificate:hover {
+    transform: scale(1.2);
+}
+
+.certificate-button{
+    background-color: #008080;
+    color: white;
+    margin:20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: background-color 0.3s ease;
+}
+
+.certificate-button:hover{
+    background-color: #006666;
+}
+
+#certification-title{
+    font-size: 3rem;
 }
