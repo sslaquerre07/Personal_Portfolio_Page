@@ -33,13 +33,13 @@ html, body, #root{
 }
 
 #nav-bar a:hover{
-    text-decoration: underline solid currentColor;
+    text-decoration: solid currentColor;
     font-size: 2rem;
 }
 
 #nav-bar a{
     color: inherit;
-    text-decoration: underline solid transparent;
+    text-decoration: solid transparent;
     transition: all 1s ease;
 }
 
@@ -97,7 +97,7 @@ a{
 #title-text{
     display: flex;
     flex-direction: column;
-    font-size: 4rem;
+    font-size: 5rem;
     width: 50%;
     height: 100%;
     justify-content: space-evenly;
@@ -106,6 +106,7 @@ a{
 
 #title-text .small-word{
     font-size: 2rem;
+}
 
 .vertical{
     flex-direction: column;
