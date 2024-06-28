@@ -26,13 +26,13 @@
 }
 
 #nav-bar a:hover{
-    text-decoration: underline solid currentColor;
-    font-size: 2vw;
+    text-decoration: solid currentColor;
+    font-size: 2rem;
 }
 
 #nav-bar a{
     color: inherit;
-    text-decoration: underline solid transparent;
+    text-decoration: solid transparent;
     transition: all 1s ease;
 }
 
@@ -91,6 +91,11 @@ a{
     width: 50vw;
     height: 100vh;
     justify-content: space-evenly;
+}
+
+
+#title-text .small-word{
+    font-size: 2rem;
 }
 
 .vertical{
