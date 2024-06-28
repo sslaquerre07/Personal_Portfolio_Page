@@ -52,14 +52,14 @@ function certifications() {
         <div className='page'>
             <Header />
             <div className="body vertical">
-                <h1 className="certification-title">Certification Wall</h1>
+                <h1 className="title-text">Certification Wall</h1>
                 <div id='certification-wall'>
                     {certificates.map((certificate) => {
                         return(createCertificate(certificate));
                     })}
                 </div>
                 <div id='skill-list'>
-                    <h1 className="certification-title">Skills</h1>
+                    <h1 className="title-text">Skills</h1>
                     <div id='skill-container'>
                         {skills.map((skill) => {
                             return(<button className='skill'>{skill}</button>);

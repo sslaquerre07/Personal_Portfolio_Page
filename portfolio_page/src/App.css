@@ -11,9 +11,9 @@
     display: flex;
     color: #d7d2cc;
     flex-direction: row;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     justify-content: space-between;
-    padding: 0vh 20vw;
+    padding: 0% 20%;
     height: 10vh;
 }
 
@@ -44,52 +44,53 @@ a{
 /* Footer Styling */
 #footer-container{
     color: #d7d2cc;
+    width: 100%;
+    align-self: flex-end;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 1.5vw;
-    height: 10vh;
+    font-size: 1.5rem;
+    height: 10%;
 }
 
 #social-section{
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 20%;
     text-align: left;
-    height: 100vh;
+    height: 100%;
 }
 
 #socials{
     display: flex;
-    margin-top: 3vh;
+    margin-top: 3%;
 }
 
 #socials * {
-    margin-right: 20%;;
+    margin-right: 20%;
 }
 
 /*Homepage Styling */
 .body{
     display: flex;
+    align-self: center;
     color: #d7d2cc;
-    height: 80vh;
-    width: 100vw;
+    height: 80%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 
 #avatar{
     margin-right: 5%;
-    width: 20vw;
-    height: 45vh;
+    width: 20%;
+    height: 55%;
 }
 
 #title-text{
     display: flex;
     flex-direction: column;
-    font-size: 4vw;
-    width: 50vw;
-    height: 100vh;
+    font-size: 4rem;
     justify-content: space-evenly;
 }
 
@@ -185,7 +186,7 @@ tr{
 
 #certification-wall{
     height: 70%;
-    width: 80vw;
+    width: 80%;
     background-color: #d7d2cc;
     border-radius: 15px;
     color: black;
@@ -201,14 +202,14 @@ tr{
     justify-content: space-evenly;
     font-size: 0.5rem;
     text-align: center;
-    height: 40%;
-    width: 15%;
+    width: 10%;
     background-color: white;
     padding: 0% 3%;
     margin: 3%;
     border-radius: 15px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     transition: all 1s ease;
+    overflow: auto;
 }
 
 .certificate:hover {
@@ -229,7 +230,7 @@ tr{
     background-color: #006666;
 }
 
-.certification-title{
+.title-text{
     font-size: 2rem;
     margin-bottom: 0;
 }

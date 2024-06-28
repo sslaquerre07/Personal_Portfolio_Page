@@ -58,7 +58,7 @@ function About(){
         <div className="page">
             <Header />
             <div className="body vertical">
-                <b>Learn About Me!</b>
+                <h1 className="title-text">Learn About Me!</h1>
                 <div id="radio-buttons">
                     <div id="life" className="about-section">
                         <button id="life-story" onClick={() => setButton("life")}>My Life</button>                      
