@@ -103,6 +103,10 @@ a{
     justify-content: space-evenly;
 }
 
+
+#title-text .small-word{
+    font-size: 2rem;
+
 .vertical{
     flex-direction: column;
     align-items: center;
