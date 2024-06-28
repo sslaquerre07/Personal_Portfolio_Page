@@ -10,9 +10,8 @@ function home(){
             <div id="body">
                 <img src={Avatar} alt='avatar icon' id='avatar'/>
                 <div id="title-text">
-                    <b className="word 1">Software Developer</b>
-                    <b className='word 2'>Avid Learner</b>
-                    <b className='word 3'>Problem Solver</b>
+                    <b className="big-word">Hi!<br />I'm Sam!</b>
+                    <p className='small-word'>Welcome to my personal portfolio!</p>
                 </div>
             </div>
             <Footer />
