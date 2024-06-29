@@ -21,12 +21,6 @@ const certificates = [
         image: "",
         source: "",
         link: ""
-    },
-    {
-        title: "More In Progress!",
-        image: "",
-        source: "",
-        link: ""
     }
 ]
 
