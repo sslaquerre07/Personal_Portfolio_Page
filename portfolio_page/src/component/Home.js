@@ -9,7 +9,7 @@ function home(){
             <Header />
             <div className="body">
                 <img src={Avatar} alt='avatar icon' id='avatar'/>
-                <div id="title-text">
+                <div className="title-text">
                     <b className="big-word">Hi!<br />I'm Sam!</b>
                     <p className='small-word'>Welcome to my personal portfolio!</p>
                 </div>

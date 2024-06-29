@@ -7,7 +7,7 @@
 }
 
 /*Header Styling*/
-#header-container{
+.header-footer{
     display: flex;
     color: #d7d2cc;
     flex-direction: row;
@@ -15,6 +15,7 @@
     justify-content: space-between;
     padding: 0% 20%;
     height: 10vh;
+    align-items: center;
 }
 
 #nav-bar{
@@ -42,31 +43,12 @@ a{
 }
 
 /* Footer Styling */
-#footer-container{
-    color: #d7d2cc;
-    width: 100%;
-    align-self: flex-end;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 1.5rem;
-    height: 10%;
-}
-
 #social-section{
     display: flex;
-    flex-direction: column;
-    width: 20%;
     text-align: left;
-    height: 100%;
 }
 
-#socials{
-    display: flex;
-    margin-top: 3%;
-}
-
-#socials * {
+#social-section * {
     margin-right: 20%;
 }
 
@@ -87,7 +69,7 @@ a{
     height: 55%;
 }
 
-#title-text{
+.title-text{
     display: flex;
     flex-direction: column;
     font-size: 4rem;
@@ -95,7 +77,7 @@ a{
 }
 
 
-#title-text .small-word{
+.title-text .small-word{
     font-size: 2rem;
 }
 
@@ -113,11 +95,15 @@ a{
 .about-section{
     background: linear-gradient(to right, #777f85 0%,#d7d2cc 100%);
     color: black;
-    width: 33vw;
+    width: 25%;
     font-size: 1rem;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    padding: 2%;
+    padding: 1% 0%;
+}
+
+.centered{
+    text-align: center;
 }
 
 .about-section button{
@@ -135,7 +121,7 @@ a{
     background: #d7d2cc;
 }
 
-#radio-buttons{
+#buttons{
     display: flex;
     width: 80%;
     margin-top: 2%;
@@ -145,28 +131,19 @@ a{
 }
 
 #text-box{
-    flex-grow: 1;
-    margin: 0%;
-    width: 80%;
+    width: 60%;
+    height: fit-content;
     background-color: #d7d2cc;
     color: black;
+    padding-bottom: 3%;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
 }
 
-#text-box table{
-    width: 100%;
-    height: 100%;
-}
-
-tr{
-    width: 100%;
-}
-
 .image-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-left: 40%;
 }
 
 .image{
@@ -176,10 +153,8 @@ tr{
 
 .text{
     padding: 0% 10%;
-}
-
-#title{
-    font-size: 1.5rem;
+    overflow-y: auto;
+    color: black;
 }
 
 /* Skills Page Styling */
@@ -194,26 +169,32 @@ tr{
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .certificate{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 0.5rem;
     text-align: center;
-    width: 10%;
+    width: 20%;
+    height: 60%;
     background-color: white;
-    padding: 0% 3%;
+    padding: 3% 3%;
     margin: 3%;
     border-radius: 15px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     transition: all 1s ease;
-    overflow: auto;
 }
 
 .certificate:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .certificate-button{
@@ -236,7 +217,7 @@ tr{
 }
 
 #skill-list{
-    height: 25%;
+    height: fit-content;
     width: 80vw;
     display: flex;
     flex-direction: column;

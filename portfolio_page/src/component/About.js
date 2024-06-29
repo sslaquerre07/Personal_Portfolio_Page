@@ -59,7 +59,7 @@ function About(){
             <Header />
             <div className="body vertical">
                 <h1 className="title-text">Learn About Me!</h1>
-                <div id="radio-buttons">
+                <div id="buttons">
                     <div id="life" className="about-section">
                         <button id="life-story" onClick={() => setButton("life")}>My Life</button>                      
                     </div>
@@ -71,18 +71,14 @@ function About(){
                     </div>
                 </div>
                 <div id="text-box">
-                    <table>
-                        <tr>
-                            <th id="title" colSpan={3}>{pageInfo[button]["title"]}</th>
-                        </tr>
-                        <tr>
-                            <td className="image-container"><img src={pageInfo[button].images[0]} alt="" className="image"/></td>
-                            <td className="text" colSpan={2} rowSpan={2}>{pageInfo[button].text}</td>
-                        </tr>
-                        <tr>
-                            <td className="image-container"><img src={pageInfo[button].images[1]} alt="" className="image"/></td>
-                        </tr>
-                    </table>
+                    <h1 className="title-text centered">{pageInfo[button].title}</h1>
+                    <div className="body">
+                        <div className="image-container">
+                            <img src={pageInfo[button].images[0]} className="image"/>
+                            <img src={pageInfo[button].images[1]} className="image"/>
+                        </div>
+                        <div className="text">{pageInfo[button].text}</div>
+                    </div>
                 </div>
             </div>
             <Footer />
