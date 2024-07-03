@@ -7,8 +7,8 @@ function Footer() {
             <p>Personal Portfolio</p>
             <div id="social-section">
                 <b>Follow:</b>
-                <a href="https://github.com/sslaquerre07" class="fa fa-github" />
-                <a href="https://www.linkedin.com/in/samuel-laquerre-304635202/" class="fa fa-linkedin" />
+                <a href="https://github.com/sslaquerre07" className="fa fa-github" />
+                <a href="https://www.linkedin.com/in/samuel-laquerre-304635202/" className="fa fa-linkedin" />
             </div>
             
         </div>

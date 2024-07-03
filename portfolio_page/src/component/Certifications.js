@@ -40,7 +40,6 @@ export const CertificateContext = createContext(null);
 
 function createWall(certificates){
     let rows = Math.ceil(certificates.length / 3);
-    const remainder = certificates.length % 3;
     let result = [];
     for(let i = 0; i < rows; i++){
         result.push(

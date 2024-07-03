@@ -13,7 +13,7 @@ function contact(){
                     <div className='contact-box'>
                         <p className='small-text'>Email: sslaquerre@gmail.com</p>
                         <p className='small-text'>Cell: (403)-466-0914</p>
-                        <p className='small-text'>Linkedin: <a href="https://www.linkedin.com/in/samuel-laquerre-304635202/" class="fa fa-linkedin" /></p>
+                        <p className='small-text'>Linkedin: <a href="https://www.linkedin.com/in/samuel-laquerre-304635202/" className="fa fa-linkedin" /></p>
                     </div>
                     <div className='contact-box'>
                         <p className='small-text'>Or leave a personalized message!</p>
