@@ -271,6 +271,13 @@ input{
     color: black;
     padding: 2%;
     border-radius: 15px;
+    overflow-y: auto;
+}
+.contact-box .field button{
+    color: white;
+    background-color: #006666;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .fill-container{
