@@ -7,7 +7,7 @@ function home(){
     return(
         <div className='page'>
             <Header />
-            <div className="body center">
+            <div className="body center-axis center-non-axis">
                 <img src={Avatar} alt='avatar icon' id='avatar'/>
                 <div>
                     <b className="large-text">Hi!<br />I'm Sam!</b>

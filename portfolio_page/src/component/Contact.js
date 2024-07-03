@@ -9,7 +9,7 @@ function contact(){
             <div className='body vertical'>
                 <p className='large-text'>Thanks for stopping by!</p>
                 <p className='small-text'>I'm always looking for new work, so feel free to reach out via:</p>
-                <div className='horizontal'>
+                <div className='horizontal center-axis'>
                     <div className='contact-box'>
                         <p className='small-text'>Email: sslaquerre@gmail.com</p>
                         <p className='small-text'>Cell: (403)-466-0914</p>
