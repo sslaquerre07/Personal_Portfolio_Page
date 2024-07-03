@@ -6,8 +6,38 @@ function contact(){
     return( 
         <div className='page'>
             <Header />
-            <div className='body'>
-                
+            <div className='body vertical'>
+                <p className='large-text'>Thanks for stopping by!</p>
+                <p className='small-text'>I'm always looking for new work, so feel free to reach out via:</p>
+                <div className='horizontal'>
+                    <div className='contact-box'>
+                        <p className='small-text'>Email: sslaquerre@gmail.com</p>
+                        <p className='small-text'>Cell: (403)-466-0914</p>
+                    </div>
+                    <div className='contact-box'>
+                        <p className='small-text'>Or leave a personalized message!</p>
+                        <form id='message-form'>
+                            <div className='field'>
+                                <label htmlFor='first-name' className='small-text'>First Name: </label>
+                                <input type='text' placeholder='E.g Bob' id='first-name' required/><br />
+                            </div>
+                            <div className='field'>
+                                <label htmlFor='last-name' className='small-text'>Last Name: </label>
+                                <input type='text' placeholder='E.g Smith' id='last-name' required/><br />
+                            </div>
+                            <div className='field'>
+                                <label htmlFor='email' className='small-text'>Email: </label>
+                                <input type='email' id='email' required/><br />
+                            </div>
+                            <div className='field'>
+                                <label htmlFor='message' className='small-text'>Message:</label>
+                            </div>
+                            <div className='field'>
+                                <input type='textarea' id='message' className='fill-container' required />
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
             <Footer />
         </div>

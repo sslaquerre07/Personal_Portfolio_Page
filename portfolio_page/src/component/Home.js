@@ -7,11 +7,11 @@ function home(){
     return(
         <div className='page'>
             <Header />
-            <div className="body">
+            <div className="body center">
                 <img src={Avatar} alt='avatar icon' id='avatar'/>
-                <div className="title-text">
-                    <b className="big-word">Hi!<br />I'm Sam!</b>
-                    <p className='small-word'>Welcome to my personal portfolio!</p>
+                <div>
+                    <b className="large-text">Hi!<br />I'm Sam!</b>
+                    <p className='small-text'>Welcome to my personal portfolio!</p>
                 </div>
             </div>
             <Footer />

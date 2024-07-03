@@ -14,7 +14,7 @@
     font-size: 1.5rem;
     justify-content: space-between;
     padding: 0% 20%;
-    height: 10vh;
+    height: 10%;
     align-items: center;
 }
 
@@ -55,35 +55,45 @@ a{
 /*Homepage Styling */
 .body{
     display: flex;
-    align-self: center;
     color: #d7d2cc;
     height: 80%;
-    width: 100%;
-    justify-content: center;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.center{
     align-items: center;
+    justify-content: center;
 }
 
 #avatar{
     margin-right: 5%;
-    width: 20%;
+    width: 25%;
     height: 55%;
 }
 
-.title-text{
-    display: flex;
-    flex-direction: column;
-    font-size: 4rem;
-    justify-content: space-evenly;
+.large-text{
+    font-size: 3rem;
 }
 
-
-.title-text .small-word{
+.medium-text{
     font-size: 2rem;
+}
+
+.small-text{
+    font-size: 1.5rem;
 }
 
 .vertical{
     flex-direction: column;
     align-items: center;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 /*About Page Styling */
@@ -132,7 +142,7 @@ a{
 
 #text-box{
     width: 60%;
-    height: fit-content;
+    height: 60%;
     background-color: #d7d2cc;
     color: black;
     padding-bottom: 3%;
@@ -147,7 +157,7 @@ a{
 }
 
 .image{
-    height: 10vw;
+    height: 50%;
     max-width: 15vw;
 }
 
@@ -160,8 +170,7 @@ a{
 /* Skills Page Styling */
 
 #certification-wall{
-    height: 70%;
-    width: 80%;
+    width: 100%;
     background-color: #d7d2cc;
     border-radius: 15px;
     color: black;
@@ -211,11 +220,6 @@ a{
     background-color: #006666;
 }
 
-.title-text{
-    font-size: 2rem;
-    margin-bottom: 0;
-}
-
 #skill-list{
     height: fit-content;
     width: 80vw;
@@ -244,4 +248,31 @@ a{
     background-color: #006666;
     border-radius: 10px;
 
+}
+
+/*Contact Page Styling */
+.field{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.field label{
+    margin-right: 2%;
+}
+
+input{
+    border-radius: 15px;
+}
+
+.contact-box{
+    background-color: #d7d2cc;
+    color: black;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.fill-container{
+    width: 100%;
 }

@@ -58,7 +58,7 @@ function About(){
         <div className="page">
             <Header />
             <div className="body vertical">
-                <h1 className="title-text">Learn About Me!</h1>
+                <h1 className="medium-text">Learn About Me!</h1>
                 <div id="buttons">
                     <div id="life" className="about-section">
                         <button id="life-story" onClick={() => setButton("life")}>My Life</button>                      
@@ -71,7 +71,7 @@ function About(){
                     </div>
                 </div>
                 <div id="text-box">
-                    <h1 className="title-text centered">{pageInfo[button].title}</h1>
+                    <h1 className="medium-text centered">{pageInfo[button].title}</h1>
                     <div className="body">
                         <div className="image-container">
                             <img src={pageInfo[button].images[0]} className="image"/>
