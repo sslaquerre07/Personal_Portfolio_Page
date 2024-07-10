@@ -55,14 +55,6 @@ function createWall(certificates){
     return result;
 }
 
-function createCertificate(certificate) {
-    return(
-        <CertificateContext.Provider value={certificate}>
-            <Certificate/>
-        </CertificateContext.Provider>
-    );
-}
-
 
 function certifications() {
     return(
@@ -70,7 +62,7 @@ function certifications() {
             <Header />
             <div className="body vertical">
                 <h1 className="medium-text underline">Certification Wall</h1>
-                <div id='certification-wall'>
+                <div className='wall'>
                     {createWall(certificates)}
                 </div>
                 <div id='skill-list'>

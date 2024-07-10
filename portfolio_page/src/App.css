@@ -57,7 +57,7 @@ a{
 /* Footer Styling */
 #social-section{
     display: flex;
-    width: 15%;
+    width: 25%;
     justify-content: space-evenly;
 }
 
@@ -80,8 +80,9 @@ a{
 
 #avatar{
     margin-right: 5%;
-    width: 25%;
-    height: 55%;
+    aspect-ratio: 1/1;
+    max-width: 20vw;
+    max-height: 50vh;
 }
 
 .large-text{
@@ -180,7 +181,7 @@ a{
 
 /* Skills Page Styling */
 
-#certification-wall{
+.wall{
     width: 100%;
     background-color: #d7d2cc;
     border-radius: 15px;
@@ -262,6 +263,9 @@ a{
 .underline{
     text-decoration: underline;
 }
+
+/*Project Page Styling */
+
 
 /*Contact Page Styling */
 .field{
