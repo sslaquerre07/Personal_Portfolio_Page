@@ -57,22 +57,21 @@ function About(){
     return(
         <div className="page">
             <Header />
-            <div className="body vertical">
+            <div className="body vertical center-axis">
                 <h1 className="medium-text">Learn About Me!</h1>
                 <div id="buttons">
                     <div id="life" className="about-section">
-                        <button id="life-story" onClick={() => setButton("life")}>My Life</button>                      
+                        <button id="life-story" onClick={() => setButton("life")}><h1 className="small-text">My Life</h1></button>                      
                     </div>
                     <div id="software" className="about-section">
-                        <button id="software-story" onClick={() => setButton("coding")}>How I got into Software Development</button>                       
+                        <button id="software-story" onClick={() => setButton("coding")}><h1 className="small-text">Software Development</h1></button>                       
                     </div>
                     <div id="golf" className="about-section">
-                        <button id="golf-story" onClick={() => setButton("golf")}>Golf</button>                   
+                        <button id="golf-story" onClick={() => setButton("golf")}><h1 className="small-text">Golf</h1></button>                   
                     </div>
                 </div>
                 <div id="text-box">
-                    <h1 className="medium-text centered">{pageInfo[button].title}</h1>
-                    <div className="body">
+                    <div className="about-box fit-y">
                         <div className="image-container">
                             <img src={pageInfo[button].images[0]} className="image"/>
                             <img src={pageInfo[button].images[1]} className="image"/>

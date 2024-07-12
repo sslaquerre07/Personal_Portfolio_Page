@@ -94,7 +94,7 @@ a{
 }
 
 .small-text{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .vertical{
@@ -162,19 +162,28 @@ a{
     border-bottom-right-radius: 5%;
 }
 
+.about-box{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
 .image-container{
     display: flex;
+    height: 80%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5%;
 }
 
 .image{
-    height: 50%;
-    max-width: 15vw;
+    width: 10vw;
+    height: 22vh;
 }
 
 .text{
     padding: 0% 10%;
+    height: 80%;
     overflow-y: auto;
     color: black;
 }
@@ -211,6 +220,10 @@ a{
     border-radius: 15px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     transition: all 1s ease;
+}
+
+.certificate *{
+    transition: all 0.3s ease-in-out;
 }
 
 .certificate:hover {
@@ -300,4 +313,48 @@ input{
 
 .fill-container{
     width: 100%;
+}
+
+/* Responsive Design Queries*/
+
+/* Tablet Design*/
+@media (max-width:1050px){
+    .body{
+        width: 100%;
+        margin: 0;
+    }
+
+    /* About Page */
+    #buttons{
+        width: 100%
+    }
+    #text-box{
+        width: 75%;
+        height: 70%;
+    }
+    .image-container{
+        width: 30%;
+    }
+    .text{
+        width: 60%;
+        height: 80%;
+    }
+    .image{
+        width: 25vw;
+        height: 20vh;
+    }
+}
+
+/* Mobile Design */
+@media (max-width: 500px) {
+    /*About Page */
+    .image{
+        width: 25vw;
+        height: 20vh;
+    }
+
+    /*Project Page */
+    .certificate{
+        width: 80%;
+    }
 }
