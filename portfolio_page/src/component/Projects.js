@@ -63,7 +63,7 @@ function projects(){
                 <div className='wall'>
                     {project.map((project) => {
                         return(
-                            <projectContext.Provider value={project}>
+                            <projectContext.Provider key={project.name} value={project}>
                                 <Project />
                             </projectContext.Provider>
                         );
