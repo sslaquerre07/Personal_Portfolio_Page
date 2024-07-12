@@ -38,23 +38,6 @@ const skills = [
 
 export const CertificateContext = createContext(null);
 
-function createWall(certificates){
-    let rows = Math.ceil(certificates.length / 3);
-    let result = [];
-    for(let i = 0; i < rows; i++){
-        result.push(
-            <div key={i} className='row'>
-                {certificates.slice(i * 3, i * 3 + 3).map((certificate, index) => (
-                    <CertificateContext.Provider key={index} value={certificate}>
-                        <Certificate />
-                    </CertificateContext.Provider>
-                ))}
-            </div>
-        );
-    }
-    return result;
-}
-
 
 function certifications() {
     return(
@@ -63,7 +46,13 @@ function certifications() {
             <div className="body vertical">
                 <h1 className="medium-text underline">Certification Wall</h1>
                 <div className='wall'>
-                    {createWall(certificates)}
+                    {certificates.map((certificate) => {
+                        return(
+                            <CertificateContext.Provider key={certificate.title} value={certificate}>
+                                <Certificate />
+                            </CertificateContext.Provider>
+                        )
+                    })}
                 </div>
                 <div id='skill-list'>
                     <h1 className="medium-text underline">Skills</h1>
