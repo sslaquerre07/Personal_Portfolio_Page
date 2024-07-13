@@ -9,13 +9,13 @@ function createToolButton(tool, index){
 
 function Project(){
     const project = useContext(projectContext);
-    const [hovering, updateHovering] = useState(false);
+    const [clicked, updateClicked] = useState(false);
     return(
-        <div className="certificate" onMouseEnter={() => updateHovering(true)} onMouseLeave={() => updateHovering(false)}>
-            {hovering ? (
+        <div className="certificate" onClick={() => updateClicked(!clicked)}>
+            {clicked ? (
                 <>
                     <p>{project.description}</p>
-                    <a href={project.link}><button className="certificate-button">View GitHub</button></a>
+                    <button className="certificate-button"><a href={project.link} className="link">View GitHub</a></button>
                 </>
             ) : (
                 <>
