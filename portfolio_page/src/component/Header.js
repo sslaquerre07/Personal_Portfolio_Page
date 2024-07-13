@@ -6,8 +6,8 @@ function Header() {
 
     return(
         <div className="header-footer">
-            <img src={Avatar} alt='avatar icon' className="fit-y"/>
-            <div className="horizontal">
+            <div className="horizontal fit-y center-non-axis">
+                <img src={Avatar} alt='avatar icon' className="fit-y"/>
                 <p className="medium-text" id="name">Sam Laquerre</p>
             </div>
             <div className="dropdown">
