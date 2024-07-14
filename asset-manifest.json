@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Personal_Portfolio_Page/static/css/main.1eb662d3.css",
-    "main.js": "/Personal_Portfolio_Page/static/js/main.4211aae3.js",
-    "static/js/453.241f0b5b.chunk.js": "/Personal_Portfolio_Page/static/js/453.241f0b5b.chunk.js",
-    "static/media/life_2.jpeg": "/Personal_Portfolio_Page/static/media/life_2.5e4c728e9e59f36107ba.jpeg",
-    "static/media/golf_2.jpeg": "/Personal_Portfolio_Page/static/media/golf_2.6ad3c22077e77d5e3341.jpeg",
-    "static/media/life_1.jpeg": "/Personal_Portfolio_Page/static/media/life_1.603f7891c514e972e2a5.jpeg",
-    "static/media/golf_1.jpeg": "/Personal_Portfolio_Page/static/media/golf_1.29fcb9efb1d436d8c154.jpeg",
-    "static/media/coding_2.jpg": "/Personal_Portfolio_Page/static/media/coding_2.2a932af7fb550656fd80.jpg",
-    "static/media/coding_1.jpg": "/Personal_Portfolio_Page/static/media/coding_1.c20cfae3a502654ee201.jpg",
-    "static/media/avataaars.png": "/Personal_Portfolio_Page/static/media/avataaars.493a973ff296affdcd1d.png",
-    "index.html": "/Personal_Portfolio_Page/index.html",
-    "main.1eb662d3.css.map": "/Personal_Portfolio_Page/static/css/main.1eb662d3.css.map",
-    "main.4211aae3.js.map": "/Personal_Portfolio_Page/static/js/main.4211aae3.js.map",
-    "453.241f0b5b.chunk.js.map": "/Personal_Portfolio_Page/static/js/453.241f0b5b.chunk.js.map"
+    "main.css": "/static/css/main.1eb662d3.css",
+    "main.js": "/static/js/main.78a7eea9.js",
+    "static/js/453.241f0b5b.chunk.js": "/static/js/453.241f0b5b.chunk.js",
+    "static/media/life_2.jpeg": "/static/media/life_2.5e4c728e9e59f36107ba.jpeg",
+    "static/media/golf_2.jpeg": "/static/media/golf_2.6ad3c22077e77d5e3341.jpeg",
+    "static/media/life_1.jpeg": "/static/media/life_1.603f7891c514e972e2a5.jpeg",
+    "static/media/golf_1.jpeg": "/static/media/golf_1.29fcb9efb1d436d8c154.jpeg",
+    "static/media/coding_2.jpg": "/static/media/coding_2.2a932af7fb550656fd80.jpg",
+    "static/media/coding_1.jpg": "/static/media/coding_1.c20cfae3a502654ee201.jpg",
+    "static/media/avataaars.png": "/static/media/avataaars.493a973ff296affdcd1d.png",
+    "index.html": "/index.html",
+    "main.1eb662d3.css.map": "/static/css/main.1eb662d3.css.map",
+    "main.78a7eea9.js.map": "/static/js/main.78a7eea9.js.map",
+    "453.241f0b5b.chunk.js.map": "/static/js/453.241f0b5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1eb662d3.css",
-    "static/js/main.4211aae3.js"
+    "static/js/main.78a7eea9.js"
   ]
 }
