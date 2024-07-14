@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from "react-router-dom";
 import Avatar from 'C:/GitHub/Personal_Portfolio_Page/src/images/avataaars.png'
 
 function Header() {
@@ -13,11 +14,11 @@ function Header() {
             <div className="dropdown">
                 <button className="link" onClick={() => setOpen(!open)}>Menu</button>
                 <div className={`dropdown-menu ${open ? 'visible' : 'hidden'}`}>
-                    <p><a href="/Personal_Portfolio_Page" className="link small-text">Home</a></p>
-                    <p><a href="/Personal_Portfolio_Page/about" className="link small-text">About</a></p>
-                    <p><a href="/Personal_Portfolio_Page/projects" className="link small-text">Projects</a></p>
-                    <p><a href="/Personal_Portfolio_Page/certifications" className="link small-text">Certifications & Skills</a></p>
-                    <p><a href="/Personal_Portfolio_Page/contact" className="link small-text">Contact</a></p>
+                    <p><Link to="/" className="link small-text">Home</Link></p>
+                    <p><Link to="/about" className="link small-text">About</Link></p>
+                    <p><Link to="/projects" className="link small-text">Projects</Link></p>
+                    <p><Link to="/certifications" className="link small-text">Certifications & Skills</Link></p>
+                    <p><Link to="/contact" className="link small-text">Contact</Link></p>
                 </div>
             </div>
         </div>

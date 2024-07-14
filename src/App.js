@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter, Route, Routes, Link} from 'react-router-dom';
 import HomePage from './component/Home.js';
 import About from './component/About.js';
 import Contact from './component/Contact.js';
@@ -9,15 +9,15 @@ import Projects from './component/Projects.js';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
-        <Route path="/Personal_Portfolio_Page" element={<HomePage />} />
-        <Route path="/Personal_Portfolio_Page/about" element={<About />} />
-        <Route path="/Personal_Portfolio_Page/certifications" element={<Certifications />} />
-        <Route path="/Personal_Portfolio_Page/projects" element={<Projects />} />
-        <Route path="/Personal_Portfolio_Page/contact" element={<Contact />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/certifications" element={<Certifications />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
