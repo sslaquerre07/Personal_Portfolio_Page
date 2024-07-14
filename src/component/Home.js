@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Avatar from 'C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/avataaars.png'
+import Avatar from 'C:/GitHub/Personal_Portfolio_Page/src/images/avataaars.png'
 
 function home(){
     return(

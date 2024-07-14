@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Avatar from 'C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/avataaars.png'
+import Avatar from 'C:/GitHub/Personal_Portfolio_Page/src/images/avataaars.png'
 
 function Header() {
     const [open, setOpen] = useState(false);
@@ -13,11 +13,11 @@ function Header() {
             <div className="dropdown">
                 <button className="link" onClick={() => setOpen(!open)}>Menu</button>
                 <div className={`dropdown-menu ${open ? 'visible' : 'hidden'}`}>
-                    <p><a href="/" className="link small-text">Home</a></p>
-                    <p><a href="/about" className="link small-text">About</a></p>
-                    <p><a href="/projects" className="link small-text">Projects</a></p>
-                    <p><a href="/certifications" className="link small-text">Certifications & Skills</a></p>
-                    <p><a href="/contact" className="link small-text">Contact</a></p>
+                    <p><a href="/Personal_Portfolio_Page" className="link small-text">Home</a></p>
+                    <p><a href="/Personal_Portfolio_Page/about" className="link small-text">About</a></p>
+                    <p><a href="/Personal_Portfolio_Page/projects" className="link small-text">Projects</a></p>
+                    <p><a href="/Personal_Portfolio_Page/certifications" className="link small-text">Certifications & Skills</a></p>
+                    <p><a href="/Personal_Portfolio_Page/contact" className="link small-text">Contact</a></p>
                 </div>
             </div>
         </div>

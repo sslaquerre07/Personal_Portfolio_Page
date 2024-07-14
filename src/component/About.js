@@ -1,12 +1,12 @@
 import React, {useState} from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Life1 from "C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/life_1.jpeg";
-import Life2 from "C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/life_2.jpeg";
-import Code1 from "C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/coding_1.jpg";
-import Code2 from "C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/coding_2.jpg";
-import Golf1 from "C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/golf_1.jpeg";
-import Golf2 from "C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/golf_2.jpeg"
+import Life1 from "C:/GitHub/Personal_Portfolio_Page/src/images/life_1.jpeg";
+import Life2 from "C:/GitHub/Personal_Portfolio_Page/src/images/life_2.jpeg";
+import Code1 from "C:/GitHub/Personal_Portfolio_Page/src/images/coding_1.jpg";
+import Code2 from "C:/GitHub/Personal_Portfolio_Page/src/images/coding_2.jpg";
+import Golf1 from "C:/GitHub/Personal_Portfolio_Page/src/images/golf_1.jpeg";
+import Golf2 from "C:/GitHub/Personal_Portfolio_Page/src/images/golf_2.jpeg"
 
 const pageInfo = {
     life: {
