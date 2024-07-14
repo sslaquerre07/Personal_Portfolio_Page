@@ -229,12 +229,6 @@
     overflow-y: auto;
 }
 
-.row{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-}
-
 .certificate{
     display: flex;
     flex-direction: column;
@@ -348,7 +342,7 @@ input{
 /* Responsive Design Queries*/
 
 /* Tablet Design*/
-@media (max-width:1050px){
+@media (max-width:1024px){
     .body{
         width: 100%;
         margin: 0;
@@ -382,7 +376,7 @@ input{
 }
 
 /* Mobile Design */
-@media (max-width: 500px) {
+@media (max-width: 425px) {
     /*General Styling */
     .body{
         overflow-y: auto;
@@ -430,5 +424,20 @@ input{
     .contact .head-text{
         width: 80%;
         text-align: center;
+    }
+}
+
+/*Rotated phone modifications */
+@media (max-height: 500px){
+    .body{
+        overflow: scroll;
+    }
+
+    .project-wall{
+        height: 80vh;               
+    }
+
+    .certificate{
+        height: 200%;
     }
 }

@@ -61,7 +61,7 @@ function projects(){
             <div className='body vertical'>
                 <h1 className="medium-text underline">Project Wall</h1>
                 <p className='small-text' style={{textAlign:'center'}}>Click anywhere on the project plaque to see a full description!</p>
-                <div className='wall'>
+                <div className='wall project-wall'>
                     {project.map((project) => {
                         return(
                             <projectContext.Provider key={project.name} value={project}>

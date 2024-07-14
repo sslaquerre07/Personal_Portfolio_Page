@@ -11,7 +11,7 @@ function Project(){
     const project = useContext(projectContext);
     const [clicked, updateClicked] = useState(false);
     return(
-        <div className="certificate" onClick={() => updateClicked(!clicked)}>
+        <div className="certificate project-certificate" onClick={() => updateClicked(!clicked)}>
             {clicked ? (
                 <>
                     <p>{project.description}</p>
