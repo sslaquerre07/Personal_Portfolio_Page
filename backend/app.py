@@ -3,8 +3,10 @@ from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flask_mail import Mail, Message
+
 app = Flask(__name__)
 CORS(app)
+load_dotenv()
 
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
