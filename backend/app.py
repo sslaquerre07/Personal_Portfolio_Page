@@ -5,7 +5,7 @@ from flask_cors import CORS
 from flask_mail import Mail, Message
 
 app = Flask(__name__)
-CORS(app, resources={r"/Contact": {"origins": "https://your-github-pages-domain.com"}})
+CORS(app, resources={r"/Contact": {"origins": "https://sslaquerre07.github.io"}})
 load_dotenv()
 
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
