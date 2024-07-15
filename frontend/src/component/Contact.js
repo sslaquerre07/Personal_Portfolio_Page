@@ -2,7 +2,27 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-function contact(){
+function handleSubmission(event){
+    event.preventDefault();
+    let message = {
+        firstName: document.getElementById('first-name').value,
+        lastName: document.getElementById('last-name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value
+    }
+    fetch('http://127.0.0.1:5000/Contact', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(message) 
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log(('Error:', error)))
+}
+
+function Contact(){
     return( 
         <div className='page'>
             <Header />
@@ -17,7 +37,7 @@ function contact(){
                     </div>
                     <div className='contact-box'>
                         <p className='small-text'>Or leave a personalized message!</p>
-                        <form id='message-form'>
+                        <form id='message-form' onSubmit={handleSubmission}>
                             <div className='field'>
                                 <label htmlFor='first-name' className='small-text'>First Name: </label>
                                 <input type='text' placeholder='E.g Bob' id='first-name' required/><br />
@@ -48,4 +68,4 @@ function contact(){
     );
 }
 
-export default contact;
+export default Contact;
