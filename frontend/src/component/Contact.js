@@ -10,7 +10,7 @@ function handleSubmission(event){
         email: document.getElementById('email').value,
         message: document.getElementById('message').value
     }
-    fetch('https://personal-portfolio-app-62f3b102ac45.herokuapp.com/', {
+    fetch('http://127.0.0.1:5000/Contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
