@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import Avatar from 'C:/GitHub/Personal_Portfolio_Page/src/images/avataaars.png'
+import Avatar from './images/avataaars.png'
 
 function Header() {
     const [open, setOpen] = useState(false);
