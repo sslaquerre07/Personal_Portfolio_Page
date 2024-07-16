@@ -14,10 +14,6 @@ app.config['MAIL_PASSWORD'] = os.getenv('MAIL_PASSWORD')
 
 mail = Mail(app)
 
-@app.route('/')
-def index():
-    return app.send_static_file('index.html')
-
 @app.route("/Contact", methods=['POST'])
 def submit_message():
     data = request.json
