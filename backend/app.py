@@ -14,7 +14,7 @@ app.config['MAIL_PASSWORD'] = os.getenv('MAIL_PASSWORD')
 
 mail = Mail(app)
 
-@app.route("/Contact", methods=['POST'])
+@app.route("/contact", methods=['POST'])
 def submit_message():
     data = request.json
     first_name = data.get("firstName")
