@@ -22,7 +22,7 @@
     font-size: 1.5rem;
     justify-content: space-between;
     padding: 0% 10%;
-    height: 10%;
+    height: 10vh;
     align-items: center;
 }
 
@@ -371,7 +371,7 @@ input{
     /*Project Page */
     .certificate{
         height: 50%;
-        width: 30%;
+        width: 35%;
     }
 }
 
@@ -429,15 +429,24 @@ input{
 
 /*Rotated phone modifications */
 @media (max-height: 500px){
+    .page{
+        height: fit-content;
+    }
+
     .body{
         overflow: scroll;
+        height: auto;
     }
 
     .project-wall{
-        height: 80vh;               
+        height: auto;
     }
 
     .certificate{
-        height: 200%;
+        height: auto;
+    }
+
+    .project-certificate{
+        height: auto;
     }
 }
