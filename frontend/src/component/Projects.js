@@ -45,9 +45,10 @@ const project = [
     },
     {
         name: "Personal Portfolio Website",
-        completed: false,
+        completed: true,
+        completionDate: new Date(2024, 6, 16),
         tools: ["JavaScript", "HTML", "CSS", "React"],
-        link: "TBD",
+        link: "https://github.com/sslaquerre07/Personal_Portfolio_Page",
         description: "This website has been a project in and of itself, implementing Responsive Web Design Principles"
     }    
 ];

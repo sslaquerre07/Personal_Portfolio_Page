@@ -20,6 +20,9 @@ function handleSubmission(event){
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.log(('Error:', error)))
+
+    //Clearing all contents
+    document.getElementById('first-name').value = document.getElementById('last-name').value = document.getElementById('email').value = document.getElementById('message').value = '';
 }
 
 function Contact(){

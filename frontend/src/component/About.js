@@ -13,20 +13,21 @@ const pageInfo = {
         title: "My Life",
         images: [Life1, Life2],
         text: 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-        dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae. Enim praesent elementum facilisis 
-        leo vel. Dictumst quisque sagittis purus sit. At tellus at urna condimentum. Adipiscing commodo elit 
-        at imperdiet. Posuere morbi leo urna molestie at. Laoreet sit amet cursus sit amet. Accumsan sit amet 
-        nulla facilisi morbi tempus iaculis urna. Amet nulla facilisi morbi tempus iaculis urna id volutpat. 
-        <br /><br />Blandit turpis cursus in hac habitasse. Interdum varius sit amet mattis vulputate enim nulla. Sed 
-        ullamcorper morbi tincidunt ornare massa eget egestas purus. Sagittis purus sit amet volutpat consequat 
-        mauris. Volutpat lacus laoreet non curabitur gravida. Mi ipsum faucibus vitae aliquet nec ullamcorper sit.</p>
+        <p>My life has many different aspects, school, sports, family and work being some of the
+            most prevalent. I am an only child, half Costa Rican and half French Canadian, not
+            learning English until I started kindergarten! I've always been involved in many sports, 
+            while simultaneously pursuing academic excellence. <br /><br /> Additionally, I have accumulated 
+            tons of experience in the hospitality industry over the past three years. This has allowed me to become
+            a more personable and extroverted individual. <br /><br />While I would love to discuss 
+            the other aspects of my life here, they have entire sections dedicated to them, so go check 
+            them out!
+        </p>
     },
     coding: {
         title: "My journey into Software Engineering",
         images: [Code1, Code2],
         text: 
-            <p>Believe it or not, I had no prior coding experience coming into university. My first exposure 
+            <p>Believe it or not, I had no prior coding experience coming into university! My first exposure 
             came in our introductory programming class in my first semester. Immediately, I fell in love with the
             world of software development. What fascinated me the most was the endless world of
             constantly changing information to learn. One of the main things I was looking for in a career was the
