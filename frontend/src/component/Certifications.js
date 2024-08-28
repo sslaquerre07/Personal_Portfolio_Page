@@ -5,22 +5,34 @@ import Certificate from './Certificate';
 
 const certificates = [
     {
+        title: "Supervised Machine Learning: Regression",
+        source: "IBM",
+        link: "https://www.coursera.org/account/accomplishments/verify/DBNPWAZ62LZN"
+    },
+    {
+        title: "Supervised Machine Learning: Classification",
+        source: "IBM",
+        link: "https://www.coursera.org/account/accomplishments/verify/D2KBK6SC1EM9"
+    },
+    {
+        title: "Unsupervised Machine Learning",
+        source: "IBM",
+        link: "https://www.coursera.org/account/accomplishments/verify/WQYNG82A0FMP"
+    },
+    {
         title: "Responsive Web Design",
-        image: "C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/responsive-web-desgin.jpg",
         source: "freeCodeCamp.org",
         link: "https://www.freecodecamp.org/certification/sslaquerre07/responsive-web-design"
     },
     {
         title: "JavaScript Algorithms and Data Structures",
-        image: "C:/GitHub/Personal_Portfolio_Page/portfolio_page/src/images/js.png",
         source: "freeCodeCamp.org",
         link: "https://www.freecodecamp.org/certification/sslaquerre07/javascript-algorithms-and-data-structures-v8"
     },
     {
-        title: "More In Progress!",
-        image: "",
-        source: "",
-        link: ""
+        title: "Exploratory Data Analysis",
+        source: "IBM",
+        link: "https://www.coursera.org/account/accomplishments/verify/DAMW48CPBQTF"
     }
 ]
 
